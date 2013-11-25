@@ -1,0 +1,29 @@
+{
+    "name": "gitTracker",
+    "description": "An application to gather analytics for git repositories using web based clients",
+    "contributors": [ 
+        {
+            "name": "Ben Flowers",
+            "email": "ben.j.flowers@gmail.com"
+        }
+  	],
+    "version": "0.0.1",
+    "repository" : { 
+        "type" : "git", 
+        "url" : "https://github.com/benoj/gitTracker"
+    },
+    "licenses": [{
+      "type": "MIT"
+    }],
+    "dependencies": {
+    },
+    "devDependencies":{
+        "mocha": "*",
+        "chai" : "*",
+        "grunt-cli": "*",
+        "grunt-contrib-jshint": "*",
+        "grunt-mocha-test": "*",
+        "grunt-git": "*",
+        "grunt-shell": "*"
+    }
+}
