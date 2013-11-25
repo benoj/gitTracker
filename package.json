@@ -1,6 +1,7 @@
 {
     "name": "gitTracker",
     "description": "An application to gather analytics for git repositories using web based clients",
+    "keywords": ["git","git count","git analytics","analytics"],
     "contributors": [ 
         {
             "name": "Ben Flowers",
@@ -25,5 +26,8 @@
         "grunt-mocha-test": "*",
         "grunt-git": "*",
         "grunt-shell": "*"
+    },
+    "scripts":{
+        "test": "./node_modules/grunt-cli/bin/grunt test"
     }
 }
